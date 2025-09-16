@@ -1,0 +1,8 @@
+.div{
+     background-image: url('../image/best.jpg');
+    background-size: cover; /* растягивает изображение на весь фон */
+    background-position: center; /* центрирует изображение */
+    background-repeat: no-repeat; /* предотвращает повторение */
+    width: 100%;
+    height: 110vh; 
+}
