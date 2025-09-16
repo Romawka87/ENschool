@@ -10,12 +10,11 @@ import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom
 import RegistatrationPage from './components/RegistatrationPage'
 
 
-// Layout компонент с Outlet
 const MainLayout = () => {
   return (
     <>
       <Header />
-      <Outlet /> {/* Здесь будут отображаться дочерние компоненты */}
+      <Outlet />
       <section id="footer">
       <Footer />
       </section>
@@ -23,7 +22,6 @@ const MainLayout = () => {
   );
 };
 
-// Компонент для главной страницы
 const HomeContent = () => {
   return (
     <>
